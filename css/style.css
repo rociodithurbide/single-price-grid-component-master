@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  --main-color: #2bb3b1;
+  --secondary-color: #4abebd;
+  --accent-color: #bfdf32;
+}
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  min-height: 100vh;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+.subscribe-wrapper {
+  max-width: 500px;
+  background-color: white;
+  border-radius: 5px;
+}
+.subscribe-wrapper .join-wrapper {
+  max-width: 500px;
+  padding: 30px;
+}
+.subscribe-wrapper .join-wrapper .subscription-title {
+  color: #2bb3b1;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.subscribe-wrapper .join-wrapper .subscription-subtitle {
+  color: var(--accent-color);
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.subscribe-wrapper .join-wrapper .subscription-text {
+  color: #999999;
+  font-size: 0.9em;
+  line-height: 20px;
+}
+.subscribe-wrapper .wrap-container {
+  max-width: 600px;
+  display: flex;
+}
+.subscribe-wrapper .wrap-container .sign-up-wrapper {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--main-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.subscribe-wrapper .wrap-container .sign-up-wrapper .price-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 10px 0;
+}
+.subscribe-wrapper .wrap-container .sign-up-wrapper .amount {
+  font-size: 1.6em;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.subscribe-wrapper .wrap-container .sign-up-wrapper .price {
+  font-size: 0.8em;
+  color: #e0e0e0;
+}
+.subscribe-wrapper .wrap-container .sign-up-wrapper .sign-up-text {
+  margin-bottom: 20px;
+  font-size: 0.79em;
+}
+.subscribe-wrapper .wrap-container .sign-up-wrapper .sign-up-button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.subscribe-wrapper .wrap-container .why-us-wrapper {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.subscribe-wrapper .wrap-container .why-us-wrapper .why-us-title {
+  margin-bottom: 20px;
+}
+.subscribe-wrapper .wrap-container .why-us-wrapper .why-us-text {
+  max-width: 80%;
+  font-size: 0.7em;
+  line-height: 20px;
+}
+.footer {
+  max-width: 600px;
+  margin: 50px 0 30px 0;
+  font-size: 0.9em;
+}
